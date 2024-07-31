@@ -12,6 +12,12 @@ This script is used to update Dynamic DNS (DDNS) service based on Cloudflare! Ac
 git clone https://github.com/K0p1-Git/cloudflare-ddns-updater.git
 ```
 
+## After installation
+```bash
+cd cloudflare-ddns-updater/
+sudo chmod 777 cloudflare-template.sh
+```
+
 ## Usage
 This script is used with crontab. Specify the frequency of execution through crontab.
 
